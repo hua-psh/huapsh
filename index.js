@@ -6,7 +6,8 @@ function getLocation(){
 } 
 function showPosition(position){
 
-    var map = new BMapGL.Map('container'); // 创建Map实例
+    var map = new BMapGL.Map('container'); 
+    // 创建Map实例
     // 经度        
     var longitude =position.coords.longitude;        
     // 纬度        
