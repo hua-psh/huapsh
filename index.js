@@ -8,9 +8,9 @@ function showPosition(position){
 
     var map = new BMapGL.Map('container');// 创建Map实例
     // 经度        
-    var longitude =position.coords.longitude-0.0864;        
+    var longitude =position.coords.longitude-0.0921;        
     // 纬度        
-    var latitude = position.coords.latitude+0.0151;
+    var latitude = position.coords.latitude+0.01397;
     map.centerAndZoom(new BMapGL.Point(longitude, latitude), 20); // 初始化地图,设置中心点坐标和地图级别
     map.enableScrollWheelZoom(true); // 开启鼠标滚轮缩放
 
